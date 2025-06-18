@@ -1,6 +1,10 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import Outfit font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
 
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
 
@@ -99,5 +103,32 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+/* Custom utility classes for Project SYMBIONT */
+@layer utilities {
+  .font-outfit {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .bg-gradient-radial {
+    background: radial-gradient(circle, var(--tw-gradient-stops));
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
