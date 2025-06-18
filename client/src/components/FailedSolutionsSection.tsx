@@ -4,11 +4,11 @@ import React from 'react';
 const FailedSolutionsSection = () => {
   // Failed fixes list - Edit these items to change the content
   const failedFixes = [
-    { text: "100% Renewable Energy?", subtext: "Still grid-reliant." },
-    { text: "Efficient Cooling?", subtext: "Heat still wasted." },
-    { text: "Biofuel Generators?", subtext: "Still polluting." },
-    { text: "Green Construction?", subtext: "Doesn't fix operations." },
-    { text: "Heat Recycling?", subtext: "Only works in cold cities." }
+    { text: "100% Renewable Energy PPAs", subtext: "Data centers need 24/7 power, but solar only works in daytime. A 100 MW facility would need 1,446 acres of panels." },
+    { text: "Efficient Cooling Systems", subtext: "PUE ratios near 1.1 hit diminishing returns. Liquid cooling reduces power but doesn't address energy source or waste heat reuse." },
+    { text: "Green Building Materials", subtext: "Microsoft explored mushroom-based construction, but operational sustainability matters more than building materials." },
+    { text: "Conventional Heat Recycling", subtext: "Only works in cold climates near communities that need heat. Most data centers are in remote areas or hot climates." },
+    { text: "On-site Solar Panels", subtext: "Often symbolic. Large rooftops might power just a few percent of facility load. Land footprint exceeds data center site." }
   ];
 
   return (
@@ -40,9 +40,12 @@ const FailedSolutionsSection = () => {
           {/* Left Side: Problem Summary - Edit this content */}
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              Most solutions only fix one piece of the puzzle. Renewable energy doesn't solve water waste. 
-              Efficient cooling doesn't reuse heat. Green building materials don't matter if operations are 
-              still polluting. We don't need net-zero — we need net-positive.
+              Each tackles a slice of the problem in isolation but don't create a fundamentally sustainable system. 
+              At best, you get a net-zero energy data center that still consumes local resources and provides no other benefits. 
+              We can't solar-panel our way out of the fact that at hyperscale, data centers will still be resource hogs.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed">
+              We need to flip the paradigm: instead of just reducing negatives, how do we generate positives?
             </p>
           </div>
           

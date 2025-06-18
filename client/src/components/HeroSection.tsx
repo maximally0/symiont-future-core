@@ -12,7 +12,7 @@ const HeroSection = () => {
         
         {/* Subheading - Edit this text to change the description */}
         <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          A regenerative AI data center that functions like a living organism.
+          Transform the data center from an energy sink into a regenerative node that not only powers AI but heals and feeds its environment.
         </p>
         
         {/* YouTube Video Container - Replace VIDEO_ID with actual YouTube video ID */}

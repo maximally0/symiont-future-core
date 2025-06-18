@@ -23,7 +23,7 @@ const ProblemSection = () => {
               <div className="text-4xl mb-4 text-red-400">⚡</div>
               <h3 className="text-2xl font-bold text-red-400 mb-4">Energy</h3>
               <p className="text-gray-300 leading-relaxed">
-                Data centers now use 460+ TWh of electricity globally, projected to hit 1,050+ TWh by 2026. Most energy is wasted as heat with fossil-fueled grids.
+                AI workloads demand 7-8× more power than typical data tasks. By 2026, data centers could consume 1,050 TWh globally — ranking 5th among countries between Japan and Russia.
               </p>
             </div>
           </div>
@@ -34,7 +34,7 @@ const ProblemSection = () => {
               <div className="text-4xl mb-4 text-blue-400">💧</div>
               <h3 className="text-2xl font-bold text-blue-400 mb-4">Water</h3>
               <p className="text-gray-300 leading-relaxed">
-                They guzzle millions of gallons of water per day for cooling — the same as a city of 50,000 people. All for temperature control.
+                Large facilities consume 3-5 million gallons daily for cooling — equivalent to a city of 30,000-50,000 people. Arizona and Virginia face water shortages due to data center demand.
               </p>
             </div>
           </div>
@@ -45,7 +45,7 @@ const ProblemSection = () => {
               <div className="text-4xl mb-4 text-orange-400">🌫️</div>
               <h3 className="text-2xl font-bold text-orange-400 mb-4">Emissions</h3>
               <p className="text-gray-300 leading-relaxed">
-                Nearly all energy is wasted as heat, with most centers relying on diesel backup generators and polluting power sources.
+                Almost all electricity becomes waste heat dumped to atmosphere. Virginia's data centers could reach 46% of state electricity by 2030, forcing reliance on fossil fuel peaker plants.
               </p>
             </div>
           </div>

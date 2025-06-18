@@ -20,7 +20,7 @@ const VisionSection = () => {
             Our Vision: The Living Data Center
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-            Imagine if a data center worked like a rainforest — recycling everything, giving back more than it takes.
+            A data center that functions like a living organism — taking in nutrients and excreting byproducts that are actually valuable to other processes.
           </p>
         </div>
         
