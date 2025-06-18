@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
@@ -6,7 +5,9 @@ import ProblemSection from '../components/ProblemSection';
 import FailedSolutionsSection from '../components/FailedSolutionsSection';
 import VisionSection from '../components/VisionSection';
 import SubsystemsSection from '../components/SubsystemsSection';
-import DayInLifeSection from '../components/DayInLifeSection';
+import AIOrchestrationSection from '../components/AIOrchestrationSection';
+import ClimateAdaptationSection from '../components/ClimateAdaptationSection';
+import ReliabilitySection from '../components/ReliabilitySection';
 import DeploymentRoadmapSection from '../components/DeploymentRoadmapSection';
 import GlobalImpactSection from '../components/GlobalImpactSection';
 import CallToActionSection from '../components/CallToActionSection';
@@ -25,6 +26,15 @@ const Index = () => {
       </section>
       <section id="subsystems">
         <SubsystemsSection />
+      </section>
+      <section id="aiorchestration">
+        <AIOrchestrationSection />
+      </section>
+      <section id="climateadaptation">
+        <ClimateAdaptationSection />
+      </section>
+      <section id="reliability">
+        <ReliabilitySection />
       </section>
       <section id="dayinlife">
         <DayInLifeSection />
