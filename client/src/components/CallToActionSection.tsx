@@ -37,7 +37,7 @@ const CallToActionSection = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-violet-400 via-cyan-400 to-green-400 bg-clip-text text-transparent mb-6">
-            Shape the Future
+            Download Research
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
             The AI revolution needs sustainable infrastructure. Help us build data centers that regenerate rather than consume.
@@ -133,14 +133,43 @@ const CallToActionSection = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-violet-400 to-cyan-400 p-6 rounded-xl text-center">
+            <div className="bg-gradient-to-r from-violet-400 to-cyan-400 p-6 rounded-xl text-center mb-8">
               <h4 className="text-xl font-bold text-white mb-3">
-                The Future is Regenerative
+                Download Full Research Report
               </h4>
-              <p className="text-white/90 leading-relaxed">
-                By 2030, data centers could be carbon negative, water positive, and food productive. 
-                The technology exists. The vision is clear. Now we build it together.
+              <p className="text-white/90 leading-relaxed mb-4">
+                Access the complete technical documentation, implementation guide, and feasibility analysis.
               </p>
+              <button className="bg-white text-violet-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors duration-200">
+                Download PDF Report
+              </button>
+            </div>
+            
+            {/* Thank you and attribution */}
+            <div className="bg-gray-900/50 p-6 rounded-xl border border-gray-700/50 text-center">
+              <p className="text-gray-300 mb-4 leading-relaxed">
+                Thank you for reading through this comprehensive research on regenerative AI data centers. 
+                This work represents months of analysis into how we can transform computing infrastructure 
+                from an environmental liability into a regenerative force.
+              </p>
+              <div className="border-t border-gray-700 pt-4">
+                <p className="text-cyan-400 font-medium mb-2">
+                  Research & Development
+                </p>
+                <p className="text-white font-bold mb-1">
+                  Rishul Chanana
+                </p>
+                <p className="text-gray-400 text-sm mb-4">
+                  TKS-Microsoft Research Collaboration
+                </p>
+                <div className="flex justify-center space-x-6 text-sm text-gray-500">
+                  <span>© 2025 Rishul Chanana</span>
+                  <span>•</span>
+                  <span>Project SYMBIONT</span>
+                  <span>•</span>
+                  <span>TKS-Microsoft Partnership</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

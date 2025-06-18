@@ -19,7 +19,7 @@ const Navbar = () => {
     { name: 'Day in Life', href: '#dayinlife' },
     { name: 'Roadmap', href: '#roadmap' },
     { name: 'Impact', href: '#impact' },
-    { name: 'Join Us', href: '#cta' }
+    { name: 'Download', href: '#cta' }
   ];
 
   const scrollToSection = (href: string) => {
