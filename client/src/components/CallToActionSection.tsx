@@ -77,9 +77,14 @@ const CallToActionSection = () => {
               <p className="text-white/90 leading-relaxed mb-4">
                 Access the complete technical documentation, implementation guide, and feasibility analysis.
               </p>
-              <button className="bg-white text-violet-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors duration-200">
+              <a 
+                href="https://drive.google.com/file/d/1RBzdk8gCRpaXV-U7R2WltPsXpO9EHOq6/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-violet-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors duration-200"
+              >
                 Download PDF Report
-              </button>
+              </a>
             </div>
             
             {/* Thank you and attribution */}

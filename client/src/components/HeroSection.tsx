@@ -28,9 +28,8 @@ const HeroSection = () => {
         {/* YouTube Video Container - Replace VIDEO_ID with actual YouTube video ID */}
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="relative aspect-video rounded-2xl overflow-hidden border-2 border-cyan-400/30 shadow-[0_0_30px_rgba(34,211,238,0.3)] hover:shadow-[0_0_50px_rgba(34,211,238,0.5)] transition-all duration-500 hover:scale-[1.02]">
-            {/* Replace "dQw4w9WgXcQ" with your actual YouTube video ID */}
             <iframe 
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+              src="https://www.youtube.com/embed/ajean68iJzM" 
               title="Project SYMBIONT Introduction Video"
               className="w-full h-full"
               frameBorder="0" 
