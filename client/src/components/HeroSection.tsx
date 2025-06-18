@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20 bg-gradient-radial from-cyan-500/10 via-transparent to-transparent">
+    <section className="min-h-screen flex items-center justify-center px-4 py-20 pt-32 bg-gradient-radial from-cyan-500/10 via-transparent to-transparent">
       <div className="max-w-4xl mx-auto text-center space-y-8">
         {/* Main Heading - Edit this text to change the project title */}
         <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-cyan-400 via-violet-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
